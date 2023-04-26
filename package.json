@@ -1,0 +1,28 @@
+{
+  "name": "a02-functions-wherthey",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "weather",
+  "main": "galosh.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a02-functions-wherthey.git"
+  },
+  "author": "wherthey",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a02-functions-wherthey/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a02-functions-wherthey#readme",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "moment-timezone": "^0.5.43",
+    "node-fetch": "^3.3.1"
+  },
+  "bin": {
+    "galosh.js": "./cli.js"
+  }
+}
